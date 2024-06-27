@@ -16,7 +16,7 @@ import 'swiper/css/pagination';
 
 const Testimonial = () => {
   return (
-    <section className=" bg-about py-12 xl:py-28 lg:h-[100vh]" id="testimonial">
+    <section className=" bg-about py-12 xl:py-28 lg:h-[60vh]" id="testimonial">
       <div className="container mx-auto">
         <motion.h2
           className="h2 text-center font-anta py-10"

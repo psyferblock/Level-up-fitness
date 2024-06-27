@@ -8,7 +8,7 @@ const Membership = () => {
   return (
     <section
       id="prices"
-      className="py-8 xl:py-0 lg:h-[195vh] bg-membership bg-cover bg-center 
+      className="py-8 xl:py-0 lg:h-[125vh] bg-membership bg-cover bg-center 
       relative before:w-full before:h-full before:bg-black/50 before:absolute before:top-0 before:z-10"
     >
       <div className="container mx-auto px-0 text-white h-full flex flex-col lg:pt-24 relative z-20">

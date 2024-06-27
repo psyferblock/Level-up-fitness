@@ -11,7 +11,7 @@ import { trainerData } from '@/constants';
 
 const Team = () => {
   return (
-    <section className="bg-black  lg:h-[190vh]" id="team">
+    <section className="bg-black  lg:h-[110vh]" id="team">
       <div className="container mx-auto h-full flex flex-col items-center justify-evenly">
         <motion.h2
           className="text-4xl p-6 font-anta"

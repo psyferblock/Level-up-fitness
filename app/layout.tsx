@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <>
       <head>
-        <link rel="icon" href="assets/img/logo2.png" sizes="100x100" />
+        <link rel="icon" href="assets/logo.ico" sizes="100x100" />
       </head>
       <html lang="en" className="bg-gray-200">
         <body

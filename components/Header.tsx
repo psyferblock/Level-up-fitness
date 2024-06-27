@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <motion.header
-      className={`fixed  w-full top-0 left-0 right-0  bg-black/30 backdrop-filter backdrop-blur-lg z-50 transition-all ${
+      className={`fixed  w-full top-0 left-0 right-0 pt-4 bg-black/30 backdrop-filter backdrop-blur-lg z-50 transition-all ${
         headerActive ? 'h-[100px]' : 'h-[125px]'
       }`}
       variants={fadeIn('down', 0.4)}
@@ -38,14 +38,14 @@ const Header = () => {
       <div className="container mx-auto h-full flex items-center justify-between">
         <Link href="" className="flex flex-col items-center mb-7">
           <Image
-            src={'/assets/img/logo2.png'}
-            width={117}
-            height={55}
+            src={'/assets/logo-no-background.png'}
+            width={300}
+            height={200}
             alt="logo"
           />
-          <h2 className="text-center text-accent font-anta mt-[-40px]">
+          {/* <h2 className="text-center text-accent font-anta mt-[-40px]">
             PEAK FITNESS
-          </h2>
+          </h2> */}
         </Link>
 
         <MobileNav
