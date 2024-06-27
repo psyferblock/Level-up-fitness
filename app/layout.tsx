@@ -28,7 +28,7 @@ export const metadata = {
   description:
     "For the dedicated gym rats and fitness enthusiasts come together to push their limits! Our gym combines CrossFit and heavy machinery workouts with comprehensive stretching exercises and athletic mobility training. With over 30 expert personal trainers, we provide personalized guidance to help you reach your fitness goals. Enjoy a strong sense of community at our gym bar, and experience top-notch facilities at any of our three convenient city locations.",
 
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  // icons: [{ rel: "icon", url: "/favicon.ico" }],
 
   generator: "Level Up Gym ",
   applicationName: "Level Up Fitness ",
@@ -115,10 +115,10 @@ export const metadata = {
     "motivating group training sessions",
     "urban fitness gym with modern equipment",
   ],
-  authors: [
-    // { name: "ghosn" },
-    { name: "Tarek", url: envUrl },
-  ],
+  // authors: [
+  //   // { name: "ghosn" },
+  //   { name: "Tarek", url: envUrl },
+  // ],
   creator: "Tarek Ghosn",
   publisher: "Tarek Ghosn",
   formatDetection: {
@@ -129,7 +129,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
   },
-  metadataBase: new URL(envUrl),
+  // metadataBase: new URL(envUrl),
   alternates: {
     canonical: "/",
     languages: {
